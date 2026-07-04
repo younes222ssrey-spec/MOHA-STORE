@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MOHA STORE DZ | الصفحة الرئيسية</title>
+    <meta name="description" content="متجر MOHA STORE DZ للأزياء الراقية والحديثة" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a href="index.html" class="brand">
+          <span class="brand-mark">MS</span>
+          <span>MOHA STORE DZ</span>
+        </a>
+        <nav class="nav-links">
+          <a href="index.html" class="active">الرئيسية</a>
+          <a href="products.html">المنتجات</a>
+          <a href="index.html#offers">العروض</a>
+          <a href="index.html#about">من نحن</a>
+          <a href="index.html#contact">اتصل بنا</a>
+          <a href="cart.html">السلة <span class="cart-count" id="cart-count">0</span></a>
+        </nav>
+        <div class="nav-actions">
+          <button class="theme-toggle" id="theme-toggle" aria-label="تبديل الوضع الليلي">◐</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="store-badge">موضة راقية • توصيل سريع • جودة عالية</div>
+            <p class="eyebrow">موسم 2026</p>
+            <h1>أنيق، عصري، ومميز — كل قطعة تصنع تجربة موضة خاصة بك.</h1>
+            <p>
+              في MOHA STORE DZ نختار لك أحدث القطع التي تجمع بين الأناقة والراحة،
+              لتكون إطلالتك دائمًا مميزة من أول نظرة.
+            </p>
+            <div class="hero-actions">
+              <a href="products.html" class="btn btn-primary">تسوق الآن</a>
+              <a href="index.html#offers" class="btn btn-secondary">استكشف العروض</a>
+            </div>
+            <div class="hero-points">
+              <span>شحن مجاني</span>
+              <span>ضمان الجودة</span>
+              <span>استبدال سهل</span>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-panel">
+              <img src="assets/hero.svg" alt="عرض أزياء راقي" />
+              <div class="hero-panel-badge">أفضل اختيار لهذا الموسم</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="collections">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">اختيارنا المميز</p>
+            <h2>أحدث القطع التي تناسب ذوقك اليوم</h2>
+          </div>
+          <div class="showcase-grid">
+            <article class="showcase-card">
+              <h3>الستايل اليومي</h3>
+              <p>قطع عملية وراقية تناسب كل يوم وتمنحك أناقة بسيطة لكن مؤثرة.</p>
+            </article>
+            <article class="showcase-card">
+              <h3>المناسبات</h3>
+              <p>أزياء مميزة تجمع بين الفخامة والراحة في كل مناسبة.</p>
+            </article>
+            <article class="showcase-card">
+              <h3>الإكسسوارات</h3>
+              <p>أكسسوارات أنيقة تكمل إطلالتك وتضيف لمسة مميزة.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">المنتجات المميزة</p>
+            <h2>تشكيلة مختارة من أحدث القطع</h2>
+          </div>
+          <div class="product-grid" id="featured-products"></div>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="offers">
+        <div class="container offers-grid">
+          <div>
+            <p class="eyebrow">تخفيضات خاصة</p>
+            <h2>خصم يصل إلى 40% على أحدث المجموعات</h2>
+            <p>
+              لا تفوّت الفرصة على تشكيلة من الأزياء الفاخرة بأسعار استثنائية خلال هذا الأسبوع.
+            </p>
+            <a href="products.html" class="btn btn-primary">شاهد العروض</a>
+          </div>
+          <div class="offer-card">
+            <h3>صفقة الجمعة الذهبية</h3>
+            <p>أضف إلى السلة الآن واحصل على شحن مجاني</p>
+            <span>تصل إلى 40% خصم</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container about-grid">
+          <div>
+            <p class="eyebrow">من نحن</p>
+            <h2>نحو أسلوبك المميز</h2>
+            <p>
+              نؤمن بأن كل قطعة ملابس تعكس شخصية صاحبها. لذلك نوفر لك تصاميم حديثة ومفصلة
+              تجمع بين الكلاسيكية والحداثة.
+            </p>
+          </div>
+          <div class="info-boxes">
+            <div class="info-box">
+              <h3>التوصيل السريع</h3>
+              <p>خدمة شحن خلال 24 إلى 48 ساعة.</p>
+            </div>
+            <div class="info-box">
+              <h3>ضمان الجودة</h3>
+              <p>منتجات أصلية ومراجعة بعناية.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section testimonials">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">آراء العملاء</p>
+            <h2>ما يقوله عملاؤنا</h2>
+          </div>
+          <div class="testimonial-grid">
+            <article class="testimonial-card">
+              <p>“الأقمشة ممتازة والملابس تناسبني تمامًا. تجربة تسوق رائعة.”</p>
+              <strong>سارة ع.</strong>
+            </article>
+            <article class="testimonial-card">
+              <p>“التصاميم أنيقة جدًا والصفحات سهلة الاستخدام. أحببت السلة الذكية.”</p>
+              <strong>نور الدين م.</strong>
+            </article>
+            <article class="testimonial-card">
+              <p>“خدمة العملاء ممتازة والتوصيل كان سريعًا جدًا.”</p>
+              <strong>ليان ك.</strong>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-grid">
+        <div>
+          <a href="index.html" class="brand">
+            <span class="brand-mark">MS</span>
+            <span>MOHA STORE DZ</span>
+          </a>
+          <p>تصميم عصري ومستلهم من العلامات العالمية في مجال الأزياء.</p>
+        </div>
+        <div>
+          <h3>روابط سريعة</h3>
+          <ul>
+            <li><a href="products.html">المنتجات</a></li>
+            <li><a href="cart.html">السلة</a></li>
+            <li><a href="auth.html">تسجيل الدخول</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>تواصل معنا</h3>
+          <ul>
+            <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div class="toast" id="toast"></div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
